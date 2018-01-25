@@ -1,0 +1,88 @@
+CRF(algorithm='lbfgs', all_possible_states=None,
+  all_possible_transitions=False, averaging=None, c=None,
+  c1=1.309858228842532, c2=0.07731898250716715,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=100,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False)
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/metrics/classification.py:1137: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+                           precision    recall  f1-score   support
+
+             abbreviation   0.000000  0.000000  0.000000        87
+        archivalreference   0.430939  0.237805  0.306483       328
+              archive_lib   0.636364  0.823529  0.717949        17
+               attachment   0.000000  0.000000  0.000000         0
+                   author   0.862993  0.878629  0.870741      4581
+                      box   1.000000  1.000000  1.000000         6
+              cartulation   0.000000  0.000000  0.000000        10
+                   column   1.000000  1.000000  1.000000         6
+              conjunction   0.535484  0.691667  0.603636       120
+                     date   0.600000  0.473684  0.529412        19
+                    filza   0.833333  0.214286  0.340909        70
+             numbered_ref   0.000000  0.000000  0.000000        87
+                        o   0.422306  0.488760  0.453109      1379
+               pagination   0.939626  0.957539  0.948498      1154
+   publicationnumber-year   0.816794  0.804511  0.810606       665
+         publicationplace   0.908199  0.833441  0.869215      1555
+publicationspecifications   0.277523  0.367781  0.316340       329
+                publisher   0.754875  0.578442  0.654985       937
+                      ref   0.312500  0.416667  0.357143        36
+                 registry   0.538462  1.000000  0.700000        35
+                   series   0.705882  0.558140  0.623377        43
+                    title   0.884157  0.901848  0.892915     13744
+                     tomo   0.538462  0.424242  0.474576        33
+                   volume   0.575290  0.444776  0.501684       335
+                     year   0.892928  0.843848  0.867694      1601
+
+              avg / total   0.828812  0.827612  0.826328     27177
+
+CRF(algorithm='lbfgs', all_possible_states=None,
+  all_possible_transitions=False, averaging=None, c=None,
+  c1=0.92974877695894609, c2=0.022928268771566791,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=100,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False)
+                   precision    recall  f1-score   support
+
+b-meta-annotation   0.611650  0.450000  0.518519       280
+        b-primary   0.285714  0.044444  0.076923        45
+      b-secondary   0.649073  0.584082  0.614865       779
+e-meta-annotation   0.777778  0.668942  0.719266       879
+        e-primary   0.360000  0.053892  0.093750       167
+      e-secondary   0.693669  0.643714  0.667759      1583
+i-meta-annotation   0.684117  0.686059  0.685087      8457
+        i-primary   0.608856  0.611111  0.609982       270
+      i-secondary   0.766575  0.772402  0.769477     13682
+                o   0.400000  0.570048  0.470120      1035
+
+      avg / total   0.713245  0.711042  0.710366     27177
+
+CRF(algorithm='lbfgs', all_possible_states=None,
+  all_possible_transitions=False, averaging=None, c=None,
+  c1=2.1333532121953667, c2=0.014181040627326539,
+  calibration_candidates=None, calibration_eta=None,
+  calibration_max_trials=None, calibration_rate=None,
+  calibration_samples=None, delta=None, epsilon=None, error_sensitive=None,
+  gamma=None, keep_tempfiles=None, linesearch=None, max_iterations=100,
+  max_linesearch=None, min_freq=None, model_filename=None,
+  num_memories=None, pa_type=None, period=None, trainer_cls=None,
+  variance=None, verbose=False)
+             precision    recall  f1-score   support
+
+        b-r   0.793782  0.693841  0.740454      1104
+        e-r   0.894129  0.811354  0.850733      1145
+        i-r   0.957633  0.961160  0.959393     23893
+          o   0.381711  0.439614  0.408621      1035
+
+avg / total   0.926368  0.924127  0.924946     27177
+

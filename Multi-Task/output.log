@@ -1,0 +1,104 @@
+Using TensorFlow backend.
+Number of  entries:  828394
+Individual entries:  57099
+Number of labels:  27
+Number of labels:  10
+Number of labels:  4
+{1: 'abbreviation', 2: 'archivalreference', 3: 'archive_lib', 4: 'attachment', 5: 'author', 6: 'box', 7: 'cartulation', 8: 'column', 9: 'conjunction', 10: 'date', 11: 'filza', 12: 'folder', 13: 'foliation', 14: 'numbered_ref', 15: 'o', 16: 'pagination', 17: 'publicationnumber-year', 18: 'publicationplace', 19: 'publicationspecifications', 20: 'publisher', 21: 'ref', 22: 'registry', 23: 'series', 24: 'title', 25: 'tomo', 26: 'volume', 27: 'year'}
+{1: 'b-meta-annotation', 2: 'b-primary', 3: 'b-secondary', 4: 'e-meta-annotation', 5: 'e-primary', 6: 'e-secondary', 7: 'i-meta-annotation', 8: 'i-primary', 9: 'i-secondary', 10: 'o'}
+{1: 'b-r', 2: 'e-r', 3: 'i-r', 4: 'o'}
+Maximum sequence length - general : 73
+Maximum sequence length - data    : 73
+Maximum sequence length - general : 73
+Maximum sequence length - data    : 30
+Maximum sequence length - general : 73
+Maximum sequence length - data    : 35
+Maximum sequence length - labels : 73
+Maximum sequence length - labels : 73
+Maximum sequence length - labels : 73
+Maximum sequence length - labels : 73
+Maximum sequence length - labels : 73
+Maximum sequence length - labels : 73
+Maximum sequence length - labels : 73
+Maximum sequence length - labels : 73
+Maximum sequence length - labels : 73
+Maximum number of words in a sequence  : 73
+Maximum number of characters in a word : 54
+====== multi_task_b100_d7_lstm200 start ======
+2018-01-16 10:56:26.476008: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-01-16 10:56:28.228122: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX TITAN X major: 5 minor: 2 memoryClockRate(GHz): 1.076
+pciBusID: 0000:04:00.0
+totalMemory: 11.92GiB freeMemory: 11.81GiB
+2018-01-16 10:56:28.700655: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: GeForce GTX TITAN X major: 5 minor: 2 memoryClockRate(GHz): 1.076
+pciBusID: 0000:83:00.0
+totalMemory: 11.92GiB freeMemory: 11.81GiB
+2018-01-16 10:56:28.700766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2018-01-16 10:56:28.700809: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 
+2018-01-16 10:56:28.700820: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y N 
+2018-01-16 10:56:28.700827: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   N Y 
+2018-01-16 10:56:28.700841: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:04:00.0, compute capability: 5.2)
+2018-01-16 10:56:28.700849: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: GeForce GTX TITAN X, pci bus id: 0000:83:00.0, compute capability: 5.2)
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/metrics/classification.py:1137: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+/home/danny/multi-task-fineTune/code/utils.py:668: RuntimeWarning: invalid value encountered in true_divide
+  cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+====== multi_task_b100_d7_lstm200 end ======
+====== multi_task_b100_d7_lstm100 start ======
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/matplotlib/pyplot.py:523: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+====== multi_task_b100_d7_lstm100 end ======
+====== multi_task_b100_d7_lstm40 start ======
+====== multi_task_b100_d7_lstm40 end ======
+====== multi_task_b100_d5_lstm200 start ======
+====== multi_task_b100_d5_lstm200 end ======
+====== multi_task_b100_d5_lstm100 start ======
+====== multi_task_b100_d5_lstm100 end ======
+====== multi_task_b100_d5_lstm40 start ======
+====== multi_task_b100_d5_lstm40 end ======
+====== multi_task_b100_d2_lstm200 start ======
+====== multi_task_b100_d2_lstm200 end ======
+====== multi_task_b100_d2_lstm100 start ======
+====== multi_task_b100_d2_lstm100 end ======
+====== multi_task_b100_d2_lstm40 start ======
+====== multi_task_b100_d2_lstm40 end ======
+====== multi_task_b70_d7_lstm200 start ======
+====== multi_task_b70_d7_lstm200 end ======
+====== multi_task_b70_d7_lstm100 start ======
+====== multi_task_b70_d7_lstm100 end ======
+====== multi_task_b70_d7_lstm40 start ======
+====== multi_task_b70_d7_lstm40 end ======
+====== multi_task_b70_d5_lstm200 start ======
+====== multi_task_b70_d5_lstm200 end ======
+====== multi_task_b70_d5_lstm100 start ======
+====== multi_task_b70_d5_lstm100 end ======
+====== multi_task_b70_d5_lstm40 start ======
+====== multi_task_b70_d5_lstm40 end ======
+====== multi_task_b70_d2_lstm200 start ======
+====== multi_task_b70_d2_lstm200 end ======
+====== multi_task_b70_d2_lstm100 start ======
+====== multi_task_b70_d2_lstm100 end ======
+====== multi_task_b70_d2_lstm40 start ======
+====== multi_task_b70_d2_lstm40 end ======
+====== multi_task_b30_d7_lstm200 start ======
+====== multi_task_b30_d7_lstm200 end ======
+====== multi_task_b30_d7_lstm100 start ======
+====== multi_task_b30_d7_lstm100 end ======
+====== multi_task_b30_d7_lstm40 start ======
+====== multi_task_b30_d7_lstm40 end ======
+====== multi_task_b30_d5_lstm200 start ======
+====== multi_task_b30_d5_lstm200 end ======
+====== multi_task_b30_d5_lstm100 start ======
+====== multi_task_b30_d5_lstm100 end ======
+====== multi_task_b30_d5_lstm40 start ======
+====== multi_task_b30_d5_lstm40 end ======
+====== multi_task_b30_d2_lstm200 start ======
+====== multi_task_b30_d2_lstm200 end ======
+====== multi_task_b30_d2_lstm100 start ======
+====== multi_task_b30_d2_lstm100 end ======
+====== multi_task_b30_d2_lstm40 start ======
+====== multi_task_b30_d2_lstm40 end ======
+FINITO

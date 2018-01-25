@@ -1,0 +1,44 @@
+Training data  - number of lines:   49616
+Testing  data  - number of lines:   2258
+----
+Training data  - number of tokens:   828394
+Testing  data  - number of tokens:   30876
+
+
+Fitting 3 folds for each of 5 candidates, totalling 15 fits
+best params: {'c1': 1.309858228842532, 'c2': 0.07731898250716715}
+best CV score: 0.762715554579
+F1 scores: Dark blue => 0.7444, dark red => 0.7627
+best params: {'c1': 1.309858228842532, 'c2': 0.07731898250716715}
+best CV score: 0.762715554579
+                           precision    recall  f1-score   support
+
+             abbreviation      1.000     0.554     0.713       148
+        archivalreference      0.697     0.821     0.753       853
+              archive_lib      0.627     0.864     0.727       103
+               attachment      0.000     0.000     0.000         0
+                   author      0.885     0.790     0.835      4948
+                      box      0.854     0.373     0.519       110
+              cartulation      0.444     1.000     0.615         8
+              conjunction      0.490     0.560     0.523       134
+                     date      0.372     0.828     0.513        58
+                    filza      1.000     1.000     1.000         3
+                   folder      0.326     0.500     0.394        28
+                foliation      0.556     0.833     0.667        12
+             numbered_ref      0.152     0.100     0.121       120
+                        o      0.129     0.235     0.167       752
+               pagination      0.934     0.952     0.943      1139
+   publicationnumber-year      0.689     0.768     0.726       646
+         publicationplace      0.917     0.803     0.856      1592
+publicationspecifications      0.270     0.371     0.313       372
+                publisher      0.834     0.716     0.770      1443
+                      ref      0.083     0.667     0.148         3
+                 registry      1.000     0.104     0.188       154
+                   series      0.823     0.667     0.736       153
+                    title      0.868     0.892     0.880     15560
+                     tomo      0.679     0.321     0.436       224
+                   volume      0.517     0.437     0.474       277
+                     year      0.912     0.784     0.843      2036
+
+              avg / total      0.833     0.809     0.816     30876
+

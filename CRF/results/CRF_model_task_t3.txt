@@ -1,0 +1,28 @@
+Training data  - number of lines:   49616
+Testing  data  - number of lines:   2258
+----
+Training data  - number of tokens:   828394
+Testing  data  - number of tokens:   30876
+
+
+Fitting 3 folds for each of 5 candidates, totalling 15 fits
+best params: {'c1': 0.92974877695894609, 'c2': 0.022928268771566791}
+best CV score: 0.701218306677
+F1 scores: Dark blue => 0.6774, dark red => 0.7012
+best params: {'c1': 0.92974877695894609, 'c2': 0.022928268771566791}
+best CV score: 0.701218306677
+                   precision    recall  f1-score   support
+
+b-meta-annotation      0.614     0.293     0.397       348
+        b-primary      0.686     0.562     0.618       105
+      b-secondary      0.632     0.478     0.544       852
+e-meta-annotation      0.770     0.648     0.704      1061
+        e-primary      0.580     0.327     0.418       300
+      e-secondary      0.776     0.704     0.738      1717
+i-meta-annotation      0.718     0.708     0.713      9981
+        i-primary      0.791     0.657     0.718      1728
+      i-secondary      0.774     0.805     0.789     14357
+                o      0.129     0.347     0.188       427
+
+      avg / total      0.740     0.728     0.731     30876
+

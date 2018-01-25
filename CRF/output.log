@@ -1,0 +1,32 @@
+=========================== Task t4 ========================= Start:01/04/18 15:05:05
+[Parallel(n_jobs=-10)]: Done   2 out of  15 | elapsed:  8.5min remaining: 55.5min
+[Parallel(n_jobs=-10)]: Done  15 out of  15 | elapsed: 16.4min finished
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/model_selection/_search.py:761: DeprecationWarning: The grid_scores_ attribute was deprecated in version 0.18 in favor of the more elaborate cv_results_ attribute. The grid_scores_ attribute will not be available from 0.20
+  DeprecationWarning)
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/model_selection/_search.py:761: DeprecationWarning: The grid_scores_ attribute was deprecated in version 0.18 in favor of the more elaborate cv_results_ attribute. The grid_scores_ attribute will not be available from 0.20
+  DeprecationWarning)
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/model_selection/_search.py:761: DeprecationWarning: The grid_scores_ attribute was deprecated in version 0.18 in favor of the more elaborate cv_results_ attribute. The grid_scores_ attribute will not be available from 0.20
+  DeprecationWarning)
+=========================== Task t4 ========================= End:01/04/18 15:30:36
+=========================== Task t3 ========================= Start:01/04/18 15:30:36
+[Parallel(n_jobs=-10)]: Done   2 out of  15 | elapsed: 12.1min remaining: 78.9min
+[Parallel(n_jobs=-10)]: Done  15 out of  15 | elapsed: 19.7min finished
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/model_selection/_search.py:761: DeprecationWarning: The grid_scores_ attribute was deprecated in version 0.18 in favor of the more elaborate cv_results_ attribute. The grid_scores_ attribute will not be available from 0.20
+  DeprecationWarning)
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/model_selection/_search.py:761: DeprecationWarning: The grid_scores_ attribute was deprecated in version 0.18 in favor of the more elaborate cv_results_ attribute. The grid_scores_ attribute will not be available from 0.20
+  DeprecationWarning)
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/model_selection/_search.py:761: DeprecationWarning: The grid_scores_ attribute was deprecated in version 0.18 in favor of the more elaborate cv_results_ attribute. The grid_scores_ attribute will not be available from 0.20
+  DeprecationWarning)
+=========================== Task t3 ========================= End:01/04/18 16:04:41
+=========================== Task t1 ========================= Start:01/04/18 16:04:41
+[Parallel(n_jobs=-10)]: Done   2 out of  15 | elapsed: 21.4min remaining: 139.3min
+[Parallel(n_jobs=-10)]: Done  15 out of  15 | elapsed: 28.5min finished
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/model_selection/_search.py:761: DeprecationWarning: The grid_scores_ attribute was deprecated in version 0.18 in favor of the more elaborate cv_results_ attribute. The grid_scores_ attribute will not be available from 0.20
+  DeprecationWarning)
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/model_selection/_search.py:761: DeprecationWarning: The grid_scores_ attribute was deprecated in version 0.18 in favor of the more elaborate cv_results_ attribute. The grid_scores_ attribute will not be available from 0.20
+  DeprecationWarning)
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/model_selection/_search.py:761: DeprecationWarning: The grid_scores_ attribute was deprecated in version 0.18 in favor of the more elaborate cv_results_ attribute. The grid_scores_ attribute will not be available from 0.20
+  DeprecationWarning)
+/home/danny/.conda/envs/danny_conda/lib/python3.5/site-packages/sklearn/metrics/classification.py:1137: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+=========================== Task t1 ========================= End:01/04/18 16:58:05
