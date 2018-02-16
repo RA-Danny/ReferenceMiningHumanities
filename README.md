@@ -24,7 +24,7 @@
 
 <br/>
 
- Note that the **data/** folder isn't presend in this repository. The *data* folder must contain:
+ Note that the **data/** folder isn't present in this repository. The *data* folder must contain:
 :	- test.txt
 	- train.txt
 	- valid.txt
